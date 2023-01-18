@@ -1,3 +1,20 @@
+
+<!-- 
+Install 
+- npm install --save-dev hint@7.x
+- npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+- npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+- npm install webpack webpack-cli
+- npm install css-loader style-loader
+- npm i --save-dev html-webpack-plugin
+
+Testing/Validate
+- npx hint .
+- npx stylelint "**/*.{css,scss}"
+- npx eslint .
+- npm run build
+-->
+
 <a name="readme-top"></a>
 
 <div align="center">
@@ -45,21 +62,22 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> VS Editor, Github web pages, HTML, CSS and Java.
-
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
+> -  VS Editor
+> - HTML5
+> - CSS3
+> - JavaScript ES6
+> - Webpack
+> - JavaScript API
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> The key features of this website include.
+
+> - **Interactive**
+> - **Responsive**
+> - **API based**
 
 - **[js project ]**
 
@@ -73,82 +91,37 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+> To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-- IDE
-- Git & Github
-
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+In order to run this project you need to install npm and node.js as well as webpack and linter modules
 
 ### Setup
 
 Clone this repository to your desired folder:
+1. Use VScode: open terminal in VScode
+2. Navigate to the directory where you want clone the copy of this repository
+3. Create new directory [optional]
+4. Clone the repo using the below command
+ > git clone  https://github.com/Microverse-Fullstack-Program/JavaScript-Capstone.git
 
-**``https://github.com/Microverse-Fullstack-Program/JavaScript-Capstone``**
+ ### Usage
 
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
-### Install
-
-Install this project with:
-
-Navigate to the location of the folder in your machine:
-**``you@your-Pc-name:~$ cd <folder>``**
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-Github pages
-
-https://github.com/settings/pages
-<!--
-Example:
-
-```sh
-
-```
- -->
+This project can be used to learn and practice javascript ES6 and Webpack. More specifically;
+* Building a dynamic websites and single page apps.
+* Use ES6 syntax, modules, callbacks and promises.
+* Use webpack.
+* Apply HTML, CSS and JavaScript best practices.
+* Write units tests for a JavaScript app.
+* Follow GitHub flow and Gitflow.
+* Solve git conflicts.
+* Use API documentation to send and receive data from an API.
+* Understand and use JSON.
+* Make JavaScript code asynchronous.
+* Perform a code review for a team member.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,50 +129,49 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+> The collaborators of this project.
 
-👤 **Author2**
+👤 **Thinus Van de Venter**
 
-- GitHub: [@Thinus01](@Thinus01)
-- Twitter: [@twitter](https://twitter.com/thinus_v_d_v)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/thinus-van-de-venter-99aa26203/)
+- GitHub: [@githubhandle](https://github.com/Thinus01)
+- Twitter: [@twitterhandle](https://twitter.com/thinus_v_d_v#gh-light-mode-only)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/thinus-van-de-venter-99aa26203/#gh-light-mode-only)
+
+👤 **Chere Lemma**
+
+- GitHub: [@githubhandle](https://github.com/cherelemma)
+- Twitter: [@twitterhandle](https://twitter.com/Chere21271613)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/chere-lemma27211613)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Microverse-Fullstack-Program/JavaScript-Capstone/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project, give a star.
+Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+> I would like to thank [Microverseinc](https://github.com/microverseinc) for.
 
-I would like to thank Microverse, coding partners and my standup team.
+* [Readme-template](https://github.com/microverseinc/readme-template)
+* [Linter for HTML & CSS3 & JavaScript](https://github.com/microverseinc/linters-config)
+* [API]("#")
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p># JavaScript Capstone
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
