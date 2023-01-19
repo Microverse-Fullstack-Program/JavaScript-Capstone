@@ -3,25 +3,22 @@ import getArtObjects from './getArtObject.js';
 
 const itemContainer = document.querySelector('.content-Wrapper');
 
-const printItem = async () => {
-  const result = await getArtObjects();
+const printItem = async (objectId) => {
+  const result = await getArtObjects(objectId);
 
-  for (let i = 0; i < result.length; i += 1) {
-    const itemCard = document.createElement('div');
-    itemCard.className = 'item';
-    itemCard.innerHTML
-    += `<div class="imgWrapper"><img src="${result[i].primaryImage}"/></div>
+  const itemCard = document.createElement('div');
+  itemCard.className = 'item';
+  itemCard.innerHTML += `<div class="imgWrapper"><img src="${result.primaryImage}"/></div>
     <div class="title">
-        <p>${result[i].title}</p>
+        <p>${result.title}</p>
         <div class="likes">
           <button class="likeBtn"><img src="${thumbsUp}"/></button>
-          <p> ${i} likes</p>
+          <p> ${objectId} likes</p>
         </div>
     </div>
     <button class="homepageBtn" id="comments"> Comments </button>
     <button class="homepageBtn" id="reservation"> Reservations </button>`;
-    itemContainer.appendChild(itemCard);
-  }
+  itemContainer.appendChild(itemCard);
 };
 
 export default printItem;

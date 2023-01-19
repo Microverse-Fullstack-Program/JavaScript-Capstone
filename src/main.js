@@ -1,8 +1,7 @@
 import './style.css';
 
-// import printArtObjects from './modules/displayArtObject.js';
-import test from './modules/test.js';
-// import getScore from './modules/getItems.js';
+import printArtObjects from './modules/displayArtObject.js';
+import objectId from './modules/objectIds.js';
 
 // const artsTable = document.querySelector('.arts')
 // const printScore = async () => {
@@ -27,5 +26,6 @@ import test from './modules/test.js';
 // function hello () {
 //     alert("Thumbus Up!!");
 // }
-// printArtObjects();
-test();
+objectId.forEach((element) => {
+  printArtObjects(element);
+});
