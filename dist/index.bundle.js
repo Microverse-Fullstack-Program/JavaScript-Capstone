@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\r\\n  border: solid 1px gray;\\r\\n}\\r\\n\\r\\n*,\\r\\n*::before,\\r\\n*::after {\\r\\n  margin: 0;\\r\\n  padding: 0;\\r\\n  box-sizing: border-box;\\r\\n  font-family: 'Questrial', sans-serif;\\r\\n  font-weight: 400;\\r\\n  font-style: normal;\\r\\n}\\r\\n\\r\\n.NavBar {\\r\\n  font-size: 40px;\\r\\n}\\r\\n\\r\\n.Tabs {\\r\\n  margin: 2% 0% 0% 5%;\\r\\n}\\r\\n\\r\\n.Footer {\\r\\n  padding: 1% 0% 1% 1%;\\r\\n}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://javascript-capstone/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"*,\\r\\n*::before,\\r\\n*::after {\\r\\n  margin: 0;\\r\\n  padding: 0;\\r\\n  box-sizing: border-box;\\r\\n  font-family: 'Questrial', sans-serif;\\r\\n  font-weight: 400;\\r\\n  font-style: normal;\\r\\n}\\r\\n\\r\\nbody {\\r\\n  background-color: #397df3;\\r\\n}\\r\\n\\r\\n.NavBar {\\r\\n  font-weight: bold;\\r\\n  display: flex;\\r\\n  align-items: center;\\r\\n  gap: 20px;\\r\\n  margin: 0 45px 15px 45px;\\r\\n  padding: 10px;\\r\\n  font-size: 16px;\\r\\n}\\r\\n\\r\\n.logo {\\r\\n  border-radius: 50%;\\r\\n  width: 70px;\\r\\n  height: 70px;\\r\\n  padding: 10px 5px;\\r\\n  background: #fff;\\r\\n  border: 3px solid #000;\\r\\n  color: #000;\\r\\n  text-align: center;\\r\\n  font-size: 13px;\\r\\n}\\r\\n\\r\\n#tab1 {\\r\\n  font-weight: bold;\\r\\n  text-decoration: underline;\\r\\n}\\r\\n\\r\\n.NavBar p {\\r\\n  margin: 0px;\\r\\n}\\r\\n\\r\\n.content-Wrapper {\\r\\n  margin: 10px 45px 45px 45px;\\r\\n  padding: 1%;\\r\\n  display: flex;\\r\\n  flex-wrap: wrap;\\r\\n  justify-content: space-around;\\r\\n  gap: 5%;\\r\\n}\\r\\n\\r\\n.item {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  width: 30%;\\r\\n  padding: 1%;\\r\\n  margin-bottom: 3%;\\r\\n  background-color:#f7fafa;\\r\\n  border: solid 2px rgb(27, 27, 27);\\r\\n}\\r\\n\\r\\n.imgWrapper img {\\r\\n  width: 215px;\\r\\n  height: 180px;\\r\\n  margin-bottom: 5px;\\r\\n}\\r\\n\\r\\n.title {\\r\\n  display: flex;\\r\\n  justify-content: space-between;\\r\\n}\\r\\n\\r\\n.likes, \\r\\n.homepageBtn {\\r\\n  align-self: flex-end;\\r\\n}\\r\\n\\r\\n.likes {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  align-items: center;\\r\\n}\\r\\n\\r\\n.likes button {\\r\\n  box-shadow: none;\\r\\n  border: none;\\r\\n}\\r\\n\\r\\n.likes img {\\r\\n  width: 25px;\\r\\n  height: 25px;\\r\\n}\\r\\n#comments {\\r\\n  margin-bottom: 15px;\\r\\n}\\r\\n\\r\\n.homepageBtn {\\r\\n  width: max-content;\\r\\n  padding: 0 5px;\\r\\n  border: 2px solid;\\r\\n  box-shadow: 3px 3px black;\\r\\n}\\r\\n\\r\\n.Footer {\\r\\n  padding: 1% 0% 1% 2%;\\r\\n  border: solid 2px rgb(27, 27, 27);\\r\\n  font-size: 16px;\\r\\n  background-color: rgb(154, 179, 179);\\r\\n}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://javascript-capstone/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -116,7 +116,47 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\n//# sourceURL=webpack://javascript-capstone/./src/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_displayArtObject_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/displayArtObject.js */ \"./src/modules/displayArtObject.js\");\n\r\n\r\n\r\n// import getScore from './modules/getItems.js';\r\n\r\n// const artsTable = document.querySelector('.arts')\r\n// const printScore = async () => {\r\n//     const result = await getScore();\r\n//     const table = document.createElement('table');\r\n//     table.innerHTML = '';\r\n//    result.forEach((res) => {\r\n//     table.innerHTML += `\r\n//         <tr><td colspan=\"2\"> <img src=\"${res.primaryImage}\" alt=\"object image\"</td></tr>\r\n//         <tr><td colspan=\"2\"> ${res.title}</td></tr>`\r\n//         artsTable.appendChild(table);\r\n//     });\r\n// };\r\n\r\n//   printScore();\r\n\r\nconst likeBtn = document.querySelector('.likeBtn');\r\n\r\n// call the addScore function and add the score\r\n// likeBtn.addEventListener('click', hello);\r\n\r\n// function hello () {\r\n//     alert(\"Thumbus Up!!\");\r\n// }\r\n(0,_modules_displayArtObject_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n//# sourceURL=webpack://javascript-capstone/./src/main.js?");
+
+/***/ }),
+
+/***/ "./src/modules/displayArtObject.js":
+/*!*****************************************!*\
+  !*** ./src/modules/displayArtObject.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _assets_thumbs_up_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/thumbs_up.png */ \"./src/assets/thumbs_up.png\");\n/* harmony import */ var _getArtObject_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getArtObject.js */ \"./src/modules/getArtObject.js\");\n\r\n\r\n\r\nconst itemContainer = document.querySelector('.content-Wrapper');\r\n\r\nconst printItem = async () => {\r\n  const result = await (0,_getArtObject_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\r\n  console.log (result[0]);\r\n  for (let i = 0; i < result.length; ++i) {\r\n    const itemCard = document.createElement('div');\r\n    itemCard.className = 'item';\r\n    itemCard.innerHTML += \r\n    `<div class=\"imgWrapper\"><img src=\"${result[i].primaryImage}\"/></div>\r\n    <div class=\"title\">\r\n        <p>${result[i].title}</p>\r\n        <div class=\"likes\">\r\n          <button class=\"likeBtn\"><img src=\"${_assets_thumbs_up_png__WEBPACK_IMPORTED_MODULE_0__}\"/></button>\r\n          <p> ${i} likes</p>\r\n        </div>\r\n    </div>\r\n    <button class=\"homepageBtn\" id=\"comments\"> Comments </button>\r\n    <button class=\"homepageBtn\" id=\"reservation\"> Reservations </button>`\r\n    itemContainer.appendChild(itemCard);\r\n  }\r\n  \r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (printItem);\r\n\n\n//# sourceURL=webpack://javascript-capstone/./src/modules/displayArtObject.js?");
+
+/***/ }),
+
+/***/ "./src/modules/getArtObject.js":
+/*!*************************************!*\
+  !*** ./src/modules/getArtObject.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _url_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./url.js */ \"./src/modules/url.js\");\n\r\nconst result = [];\r\n\r\nconst getArtObjects = async () => {\r\n  for (let i = 0; i < _url_js__WEBPACK_IMPORTED_MODULE_0__.objectId.length; ++i) {\r\n    const response = await fetch(_url_js__WEBPACK_IMPORTED_MODULE_0__.url + _url_js__WEBPACK_IMPORTED_MODULE_0__.objectId[i]);\r\n    const res = await response.json();\r\n    result.push(res);\r\n  }\r\n  return result;\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getArtObjects);\r\n\n\n//# sourceURL=webpack://javascript-capstone/./src/modules/getArtObject.js?");
+
+/***/ }),
+
+/***/ "./src/modules/url.js":
+/*!****************************!*\
+  !*** ./src/modules/url.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"objectId\": () => (/* binding */ objectId),\n/* harmony export */   \"url\": () => (/* binding */ url)\n/* harmony export */ });\nconst url = \"https://collectionapi.metmuseum.org/public/collection/v1/objects/\";\r\n//const url = \"https://collectionapi.metmuseum.org/public/collection/v1/departments\"\r\nconst objectId = [1454, 98175, 195133, 188523, 238523, 451941];\r\n\r\n\n\n//# sourceURL=webpack://javascript-capstone/./src/modules/url.js?");
+
+/***/ }),
+
+/***/ "./src/assets/thumbs_up.png":
+/*!**********************************!*\
+  !*** ./src/assets/thumbs_up.png ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a3bcf865570ccc28ac77.png\";\n\n//# sourceURL=webpack://javascript-capstone/./src/assets/thumbs_up.png?");
 
 /***/ })
 
@@ -171,6 +211,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -185,6 +237,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
