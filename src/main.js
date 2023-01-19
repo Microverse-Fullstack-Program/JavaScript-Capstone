@@ -1,6 +1,7 @@
 import './style.css';
 
-import printArtObjects from './modules/displayArtObject.js';
+// import printArtObjects from './modules/displayArtObject.js';
+import test from './modules/test.js';
 // import getScore from './modules/getItems.js';
 
 // const artsTable = document.querySelector('.arts')
@@ -18,7 +19,7 @@ import printArtObjects from './modules/displayArtObject.js';
 
 //   printScore();
 
-const likeBtn = document.querySelector('.likeBtn');
+// const likeBtn = document.querySelector('.likeBtn');
 
 // call the addScore function and add the score
 // likeBtn.addEventListener('click', hello);
@@ -26,4 +27,5 @@ const likeBtn = document.querySelector('.likeBtn');
 // function hello () {
 //     alert("Thumbus Up!!");
 // }
-printArtObjects();
+// printArtObjects();
+test();
