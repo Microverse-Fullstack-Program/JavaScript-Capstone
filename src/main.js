@@ -16,16 +16,10 @@ import objectId from './modules/objectIds.js';
 //     });
 // };
 
-//   printScore();
-
-// const likeBtn = document.querySelector('.likeBtn');
-
 // call the addScore function and add the score
+// const likeBtn = document.querySelector('.likeBtn');
 // likeBtn.addEventListener('click', hello);
 
-// function hello () {
-//     alert("Thumbus Up!!");
-// }
-objectId.forEach((element) => {
-  printArtObjects(element);
+objectId.forEach((id) => {
+  printArtObjects(id);
 });
