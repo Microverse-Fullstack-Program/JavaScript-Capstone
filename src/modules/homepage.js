@@ -1,7 +1,9 @@
 import objectsId from './objectIds.js';
 import getLikes from './getLikes.js';
 import printArtObjects from './displayArtObject.js';
-import objectsCounter from './counter.js';
+import objectsCounter from './objCounter.js';
+
+const objectCount = document.querySelector('.counter');
 
 // retrieve likes count from the involvement API
 const checkLikes = (likeCounts, objId) => {
@@ -26,7 +28,11 @@ const loadHomePage = async () => {
     }
   });
 
-  objectsCounter();
+  setTimeout(async () => {
+    const objCount = objectsCounter();
+    objectCount.innerHTML += ` (${objCount})`;
+  }, 2000); 
+
 };
 
 export default loadHomePage;

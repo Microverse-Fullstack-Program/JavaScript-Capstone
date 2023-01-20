@@ -51,13 +51,16 @@ a:active {
   background-color: #202d77;
 }
 
-#tab1 {
+#tab1,
+.counter {
   font-weight: bold;
   text-decoration: underline;
 }
 
 h1 {
   text-align: center;
+  font-size: 24px;
+  text-shadow: 1px 1px blue;
 }
 
 .content-Wrapper {
@@ -122,6 +125,44 @@ h1 {
   padding: 0 5px;
   border: 2px solid;
   box-shadow: 3px 3px black;
+}
+
+.about-the,
+.contacts {
+  display: flex;
+  margin: 10px 45px 45px 45px;
+  padding: 1%;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.about-the {
+  flex-direction: column;
+  gap: 5%;
+}
+
+.contacts {
+  justify-content: space-evenly;
+}
+
+.authors {
+  padding: 10px;
+  background-color: #eff0f1;
+}
+
+.authors address {
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+}
+
+.authors p {
+  margin-bottom: 1%;
+}
+
+h3 {
+  padding-left: 15px;
+  font-weight: bold;
 }
 
 .Footer {
