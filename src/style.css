@@ -1,6 +1,6 @@
-* {
+/* * {
   border: solid 1px gray;
-}
+} */
 
 *,
 *::before,
@@ -17,8 +17,35 @@
   font-size: 40px;
 }
 
+#Cards {
+  position: absolute;
+  top: 1%;
+  background-color: gray;
+  margin-left: 35%;
+}
+
+#Hide {
+  display: none;
+}
+
+.title1 {
+  text-align: center;
+}
+
+.detail1 {
+  float: left;
+}
+
+.detail2 {
+  margin-left: 1%;
+}
+
 .Tabs {
   margin: 2% 0% 0% 5%;
+}
+
+.imgContainer {
+  width: 500px;
 }
 
 .Footer {
