@@ -1,25 +1,23 @@
 import './style.css';
+import loadHomePage from './modules/homepage.js';
+import postLikes from './modules/postLikes.js';
 
-import printArtObjects from './modules/displayArtObject.js';
-import objectId from './modules/objectIds.js';
+// handling onclick event for the like, comment and reservation buttons
+document.addEventListener('click', (event) => {
+  event.preventDefault();
+  const parentClass = event.target.parentElement;
+  const objId = parentClass.dataset.index;
 
-// const artsTable = document.querySelector('.arts')
-// const printScore = async () => {
-//     const result = await getScore();
-//     const table = document.createElement('table');
-//     table.innerHTML = '';
-//    result.forEach((res) => {
-//     table.innerHTML += `
-//         <tr><td colspan="2"> <img src="${res.primaryImage}" alt="object image"</td></tr>
-//         <tr><td colspan="2"> ${res.title}</td></tr>`
-//         artsTable.appendChild(table);
-//     });
-// };
-
-// call the addScore function and add the score
-// const likeBtn = document.querySelector('.likeBtn');
-// likeBtn.addEventListener('click', hello);
-
-objectId.forEach((id) => {
-  printArtObjects(id);
+  if (event.target.className === 'likeBtn') {
+    const likeCounts = parentClass.lastElementChild;
+    postLikes(objId, likeCounts);
+  } else if (event.target.className === 'homepageBtn') {
+    if (event.target.id === 'comments') {
+      // popup comments page
+    } else if (event.target.id === 'reservation') {
+      // popup reservation page
+    }
+  }
 });
+
+window.addEventListener('load', loadHomePage);
