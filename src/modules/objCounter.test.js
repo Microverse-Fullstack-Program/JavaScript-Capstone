@@ -13,7 +13,7 @@ describe('test on itemCounter', () => {
     expect(objectsCounter()).toBe(1);
   });
   test('counting 0 node element', () => {
-    document.body.innerHTML = `<div class="content-Wrapper"> </div>`;
+    document.body.innerHTML = '<div class="content-Wrapper"> </div>';
     expect(objectsCounter()).toBe(0);
   });
   test('counting 5 node element', () => {

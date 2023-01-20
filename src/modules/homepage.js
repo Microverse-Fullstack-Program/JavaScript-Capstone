@@ -31,8 +31,7 @@ const loadHomePage = async () => {
   setTimeout(async () => {
     const objCount = objectsCounter();
     objectCount.innerHTML += ` (${objCount})`;
-  }, 2000); 
-
+  }, 2000);
 };
 
 export default loadHomePage;
