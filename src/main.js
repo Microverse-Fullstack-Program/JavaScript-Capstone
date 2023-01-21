@@ -1,2 +1,11 @@
 import './style.css';
-import './modules/popup.js';
+import { window } from './modules/window.js';
+
+const commentBtn = document.querySelectorAll('.CommentsButton');
+
+// Handels all "comments" button popup execution
+commentBtn.forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    window(e.target.id);
+  });  
+});

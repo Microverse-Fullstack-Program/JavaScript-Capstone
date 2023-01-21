@@ -17,11 +17,26 @@
   font-size: 40px;
 }
 
-#Cards {
+.styling {
   position: absolute;
   top: 1%;
-  background-color: gray;
-  margin-left: 35%;
+  background-color: rgb(226, 187, 129);
+  margin-left: 32%;
+  padding: 2% 5% 2% 5%;
+}
+
+#Close {
+  padding-left: 95%;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.imgContainer {
+  border-color: #000000;
+  box-shadow: 0 0 5px #000000;  
+  padding: 2% 3% 2% 3%;
+  margin-bottom: 3%;
+  background-color: rgba(0, 0, 0, 0.418);
 }
 
 #Hide {
@@ -30,14 +45,56 @@
 
 .title1 {
   text-align: center;
+  font-weight: 700;
 }
 
 .detail1 {
   float: left;
+  width: 45%;
 }
 
-.detail2 {
-  margin-left: 1%;
+#name {
+  margin-left: 2%;
+  border-radius: 5px;
+  border: 2px solid #8d8ea8;
+  margin-top: 5%;
+}
+
+#name:focus { 
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px #9ecaed;
+}
+
+#dComment {
+  text-align: center;
+  font-weight: 600;
+}
+
+#comment {
+  border-radius: 5px;
+  border: 2px solid #8d8ea8;
+  width: 60%;
+  margin: 2% 30% 2% 2%;
+  padding-bottom: 10%;
+}
+
+#comment:focus { 
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px #9ecaed;
+}
+
+#aComment {
+  text-align: center;
+  font-weight: 600;
+}
+
+.postCommentBtn {
+  border-radius: 5px;
+  border: 2px solid #8d8ea8;
+  padding: 0 3px 0 3px;
+  margin-left: 2%;
 }
 
 .Tabs {
@@ -46,6 +103,17 @@
 
 .imgContainer {
   width: 500px;
+}
+
+#fdate {
+  float: left;
+  padding-left: 2%;
+  width: 22%;
+}
+
+#fuser {
+  float: left;
+  width: 25%;
 }
 
 .Footer {
