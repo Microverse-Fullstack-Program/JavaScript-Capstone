@@ -17,6 +17,7 @@ document.addEventListener('click', (event) => {
   } else if (event.target.className === 'homepageBtn') {
     if (event.target.id === 'comments') {
       popupWindow(event.target.dataset.index);
+      document.querySelector('#main').classList.add('blur');
     } else if (event.target.id === 'reservation') {
       // popup reservation page
     }
@@ -27,7 +28,7 @@ document.addEventListener('click', (event) => {
 // const commentBtn = document.querySelectorAll('.CommentsButton');
 // commentBtn.forEach((btn) => {
 //   btn.addEventListener('click', (e) => {
-
+    
 //   });
 // });
 
@@ -62,3 +63,4 @@ navBtn.forEach((btn) => {
 
 // landing at home page
 loadHomePage();
+
