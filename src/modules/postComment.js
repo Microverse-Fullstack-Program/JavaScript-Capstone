@@ -16,9 +16,9 @@ const sendData = async (objId) => {
   });
   username = '';
   comment = '';
-  const commentCount = commentCounter ();
+  const commentCount = commentCounter();
   if (commentCounter > 0) {
-    document.querySelector('#dComment').innerHTML = `Comments (${commentCount})`
+    document.querySelector('#dComment').innerHTML = `Comments (${commentCount})`;
   }
 };
 

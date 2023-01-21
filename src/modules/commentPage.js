@@ -5,7 +5,6 @@ const body = document.querySelector('body');
 const detailContainer = document.createElement('div');
 
 const commentPage = async (objectDetails) => {
-
   const commentsRes = await fetchComment(objectDetails.objectID);
   const objInfo = `
     <section id="card">
@@ -20,17 +19,16 @@ const commentPage = async (objectDetails) => {
 
   let comment = '';
   if (commentsRes) {
-    comment += `<p id='dComment'></p> <div class="feedback">`
+    comment += '<p id="dComment"></p> <div class="feedback">';
     for (let i = 0; i < commentsRes.length; i += 1) {
-      comment 
-        += `
+      comment += `
         <div>
           <p id='fdate'>${commentsRes[i].creation_date} </p>
           <p id='fuser'>${commentsRes[i].username}: </p>
           <p id='fcomment'>${commentsRes[i].comment}</p>
-        </div>`
+        </div>`;
     }
-    comment += `</div>`;
+    comment += '</div>';
   }
 
   const commentForm = `<p id='aComment'>Add a comment</p>
@@ -46,9 +44,9 @@ const commentPage = async (objectDetails) => {
   detailContainer.className = 'popup';
   detailContainer.classList.add('popupWrapper');
 
-  const commentCount = commentCounter ();
+  const commentCount = commentCounter();
   if (commentCounter) {
-    document.querySelector('#dComment').innerHTML = `Comments (${commentCount})`
+    document.querySelector('#dComment').innerHTML = `Comments (${commentCount})`;
   }
 };
 
