@@ -1,0 +1,10 @@
+{
+    "files.eol": "\r\n",
+    "files.exclude": {
+        "": true
+    },
+    "cSpell.words": [
+        "contenteditable"
+    ],
+    "liveServer.settings.port": 5501
+}
