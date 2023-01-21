@@ -21,10 +21,10 @@ Testing/Validate
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  ![image](https://user-images.githubusercontent.com/73167960/213892955-1ee89085-7ced-4ae0-af66-b37d405d5a9b.png)
   <br/>
 
-  <h3><b>Microverse README</b></h3>
+  <h3><b>Musem of Art API-based WebApp </b></h3>
 
 </div>
 
@@ -104,8 +104,6 @@ Testing/Validate
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-## 💻 Getting Started <a name="getting-started"></a>
-
 > To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -179,7 +177,7 @@ Give a ⭐️ if you like this project!
 
 * [Readme-template](https://github.com/microverseinc/readme-template)
 * [Linter for HTML & CSS3 & JavaScript](https://github.com/microverseinc/linters-config)
-* [The Metropolitan Museum of Art Collection API]("https://metmuseum.github.io/#objects")
+* [The Metropolitan Museum of Art Collection API](https://metmuseum.github.io/#objects)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
