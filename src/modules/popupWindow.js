@@ -2,7 +2,6 @@ import fetchObjDetails from './fetchObjDetails.js';
 import commentPage from './commentPage.js';
 import sendData from './postComment.js';
 
-// eslint-disable-next-line import/prefer-default-export
 const popupWindow = async (index) => {
   const objDetails = await fetchObjDetails(index);
   commentPage(objDetails);
