@@ -1,8 +1,9 @@
+import './style.css';
 import loadHomePage from './modules/homepage.js';
 import postLikes from './modules/postLikes.js';
 import about from './modules/about.js';
 import contact from './modules/contact.js';
-import { window } from './modules/window.js';
+import { popupWindow } from './modules/popupWindow.js';
 
 // handling onclick event for the like, comment and reservation buttons
 document.addEventListener('click', (event) => {
@@ -15,7 +16,7 @@ document.addEventListener('click', (event) => {
     postLikes(objId, likeCounts);
   } else if (event.target.className === 'homepageBtn') {
     if (event.target.id === 'comments') {
-      // popup comments page
+      popupWindow(event.target.dataset.index);
     } else if (event.target.id === 'reservation') {
       // popup reservation page
     }
@@ -23,12 +24,12 @@ document.addEventListener('click', (event) => {
 });
 
 // Handels all "comments" button popup execution
-const commentBtn = document.querySelectorAll('.CommentsButton');
-commentBtn.forEach((btn) => {
-  btn.addEventListener('click', (e) => {
-    window(e.target.id);
-  });
-});
+// const commentBtn = document.querySelectorAll('.CommentsButton');
+// commentBtn.forEach((btn) => {
+//   btn.addEventListener('click', (e) => {
+    
+//   });
+// });
 
 // Script For Single Page Application
 const navBtn = document.querySelectorAll('.NavBar a');
@@ -59,4 +60,6 @@ navBtn.forEach((btn) => {
   });
 });
 
-window.addEventListener('DOMContentLoaded', loadHomePage);
+// landing at home page
+loadHomePage();
+
