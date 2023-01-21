@@ -18,6 +18,7 @@ document.addEventListener('click', (event) => {
     const body = document.querySelector('body');
     const detailContainer = document.querySelector('.popup');
     detailContainer.classList.remove('popupWrapper');
+    document.querySelector('#main').classList.remove('blur');
     body.removeChild(detailContainer);
   }
 });
