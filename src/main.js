@@ -4,13 +4,13 @@ import postLikes from './modules/postLikes.js';
 import about from './modules/about.js';
 import contact from './modules/contact.js';
 import popupWindow from './modules/popupWindow.js';
-​
+
 // handling onclick event for the like, comment and reservation buttons
 document.addEventListener('click', (event) => {
   event.preventDefault();
   const parentClass = event.target.parentElement;
   const objId = parentClass.dataset.index;
-​
+
   if (event.target.className === 'likeBtn') {
     const likeCounts = parentClass.lastElementChild;
     postLikes(objId, likeCounts);
@@ -21,7 +21,7 @@ document.addEventListener('click', (event) => {
     }
   }
 });
-​
+
 // Script For Single Page Application
 const navBtn = document.querySelectorAll('.NavBar a');
 const section = document.querySelectorAll('section');
@@ -50,8 +50,6 @@ navBtn.forEach((btn) => {
     }
   });
 });
-​
+
 // landing at home page
 loadHomePage();
-Collapse
-
