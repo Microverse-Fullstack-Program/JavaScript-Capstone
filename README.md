@@ -21,7 +21,7 @@ Testing/Validate
 
 <div align="center">
 
-  ![image](https://user-images.githubusercontent.com/73167960/213881666-7cd7114d-5257-4a8d-adff-86bd138359d0.png)
+  ![image](https://user-images.githubusercontent.com/73167960/213881784-4b91585a-1374-45eb-b39f-181cac1796f5.png)
   <br/>
 
   <h3><b>Museum of Art API-based webapp Project README</b></h3>
