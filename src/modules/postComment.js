@@ -1,5 +1,5 @@
 import { commentURL } from './baseURLs.js';
-import { window } from './window.js';
+import commentCounter from './commentCounter.js';
 
 const sendData = async (objId) => {
   let username = document.getElementById('name').value;
@@ -16,7 +16,10 @@ const sendData = async (objId) => {
   });
   username = '';
   comment = '';
-  window(objId);
+  const commentCount = commentCounter ();
+  if (commentCounter > 0) {
+    document.querySelector('#dComment').innerHTML = `Comments (${commentCount})`
+  }
 };
 
 export default sendData;

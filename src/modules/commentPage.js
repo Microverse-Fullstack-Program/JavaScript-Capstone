@@ -1,44 +1,55 @@
 import fetchComment from './fetchComment.js';
+import commentCounter from './commentCounter.js';
 
 const body = document.querySelector('body');
 const detailContainer = document.createElement('div');
 
-export const commentPage = async (objectDetails, loops) => {
-  const comments = await fetchComment(objectDetails.objectID);
+const commentPage = async (objectDetails) => {
 
-  detailContainer.innerHTML = `
+  const commentsRes = await fetchComment(objectDetails.objectID);
+  const objInfo = `
     <section id="card">
-        <p id='Close'>X</p>
+        <p id='close'>X</p>
         <image class="imgContainer" src = "${objectDetails.primaryImage}" alt="Object Image"/>
         <h2 class='title1 detail'>${objectDetails.title}</h2>
-        <p class='detail1'>Artist Display Name: ${objectDetails.artistDisplayName}</p>
-        <p class='detail2'>Dimensions: ${objectDetails.dimensions}</p>
-        <p class='detail1'>Object name: ${objectDetails.objectName}</p>
-        <p class='detail2'>Object Date: ${objectDetails.objectDate}</p>
-        <p class='detail1'>City: ${objectDetails.city}</p>
-        <p class='detail2'>Country: ${objectDetails.country}</p>
-        <p id='dComment'>Comments (${comments.length})</p>`;
+        <p class='detail1'><strong> Department:</strong> ${objectDetails.department}</p>
+        <p class='detail2'><strong>  Culture: </strong> ${objectDetails.culture}</p>
+        <p class='detail1'><strong>  Dimensions: </strong> ${objectDetails.dimensions}</p>
+        <p class='detail2'><strong> Date: </strong> ${objectDetails.objectBeginDate} to ${objectDetails.objectEndDate} </p>
+        `;
 
-  if (comments) {
-    comments.forEach((comment) => {
-      detailContainer.innerHTML
-                += `<div class="feedback">
-                    <p id='fdate'>${comment.creation_date} </p>
-                    <p id='fuser'>${comment.username}: </p>
-                    <p id='fcomment'>${comment.comment}</p>             
-                </div>`;
-    });
+  let comment = '';
+  if (commentsRes) {
+    comment += `<p id='dComment'></p> <div class="feedback">`
+    for (let i = 0; i < commentsRes.length; i += 1) {
+      comment 
+        += `
+        <div>
+          <p id='fdate'>${commentsRes[i].creation_date} </p>
+          <p id='fuser'>${commentsRes[i].username}: </p>
+          <p id='fcomment'>${commentsRes[i].comment}</p>
+        </div>`
+    }
+    comment += `</div>`;
   }
 
-  detailContainer.innerHTML += `<p id='aComment'>Add a comment</p>
+  const commentForm = `<p id='aComment'>Add a comment</p>
+      <div class="commentPost">
         <input id='name' placeholder='name' required></input>
         <textarea id='comment' placeholder='Your insights' required></textarea>
         <button type='button' class='postCommentBtn' data-index = "${objectDetails.objectID}">Comment</button>
+      </div>
         </section>`;
+
+  detailContainer.innerHTML = objInfo + comment + commentForm;
   body.appendChild(detailContainer);
-  detailContainer.classList.add('styling');
-  loops = comments.length;
-  return loops;
+  detailContainer.className = 'popup';
+  detailContainer.classList.add('popupWrapper');
+
+  const commentCount = commentCounter ();
+  if (commentCounter) {
+    document.querySelector('#dComment').innerHTML = `Comments (${commentCount})`
+  }
 };
 
 export default commentPage;

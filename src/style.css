@@ -13,18 +13,20 @@
   font-size: 40px;
 }
 
-.styling {
+.popupWrapper {
   position: absolute;
-  top: 1%;
-  background-color: rgb(226, 187, 129);
-  margin-left: 32%;
+  top: 0;
+  background-color: rgb(182, 214, 214);
+  margin-left: 25%;
   padding: 2% 5% 2% 5%;
+  z-index: 9999;
 }
 
-#Close {
+#close {
   padding-left: 95%;
   font-weight: 800;
   font-size: 25px;
+  cursor: pointer;
 }
 
 .imgContainer {
@@ -48,6 +50,17 @@
 .detail1 {
   float: left;
   width: 45%;
+  margin-right: 10px;
+}
+
+.commentPost {
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #name {
@@ -55,6 +68,8 @@
   border-radius: 5px;
   border: 2px solid #8d8ea8;
   margin-top: 5%;
+  padding: 5px;
+  width: 90%;
 }
 
 #name:focus {
@@ -63,9 +78,12 @@
   box-shadow: 0 0 10px #9ecaed;
 }
 
-#dComment {
-  text-align: center;
+#dComment,
+#aComment {
+  text-align: left;
+  margin-top: 25px;
   font-weight: 600;
+  margin-left: 150px;
 }
 
 #comment {
@@ -73,7 +91,8 @@
   border: 2px solid #8d8ea8;
   width: 60%;
   margin: 2% 30% 2% 2%;
-  padding-bottom: 10%;
+  padding: 5px 0 10% 5px;
+  width: 90%;
 }
 
 #comment:focus {
@@ -82,16 +101,12 @@
   box-shadow: 0 0 10px #9ecaed;
 }
 
-#aComment {
-  text-align: center;
-  font-weight: 600;
-}
-
 .postCommentBtn {
   border-radius: 5px;
   border: 2px solid #8d8ea8;
   padding: 0 3px 0 3px;
-  margin-left: 2%;
+  margin-right: 25px;
+  align-self: flex-end;
 }
 
 .Tabs {

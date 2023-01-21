@@ -8,7 +8,6 @@
  */
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/style.css":
@@ -17,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"/* * {\\r\\n  border: solid 1px gray;\\r\\n} */\\r\\n\\r\\n*,\\r\\n*::before,\\r\\n*::after {\\r\\n  margin: 0;\\r\\n  padding: 0;\\r\\n  box-sizing: border-box;\\r\\n  font-family: 'Questrial', sans-serif;\\r\\n  font-weight: 400;\\r\\n  font-style: normal;\\r\\n}\\r\\n\\r\\n.NavBar {\\r\\n  font-size: 40px;\\r\\n}\\r\\n\\r\\n.styling {\\r\\n  position: absolute;\\r\\n  top: 1%;\\r\\n  background-color: rgb(226, 187, 129);\\r\\n  margin-left: 32%;\\r\\n  padding: 2% 5% 2% 5%;\\r\\n}\\r\\n\\r\\n.imgContainer {\\r\\n  border-color: #000000;\\r\\n  box-shadow: 0 0 5px #000000;  \\r\\n  padding: 2% 3% 2% 3%;\\r\\n  background-color: rgba(0, 0, 0, 0.418);\\r\\n}\\r\\n\\r\\n#Hide {\\r\\n  display: none;\\r\\n}\\r\\n\\r\\n.title1 {\\r\\n  text-align: center;\\r\\n  font-weight: 700;\\r\\n}\\r\\n\\r\\n.detail1 {\\r\\n  float: left;\\r\\n  width: 45%;\\r\\n}\\r\\n\\r\\n#name {\\r\\n  margin-left: 2%;\\r\\n  border-radius: 5px;\\r\\n  border: 2px solid #8d8ea8;\\r\\n  margin-top: 5%;\\r\\n}\\r\\n\\r\\n#name:focus { \\r\\n  outline: none;\\r\\n  border-color: #9ecaed;\\r\\n  box-shadow: 0 0 10px #9ecaed;\\r\\n}\\r\\n\\r\\n#comment {\\r\\n  border-radius: 5px;\\r\\n  border: 2px solid #8d8ea8;\\r\\n  width: 60%;\\r\\n  margin: 2% 30% 2% 2%;\\r\\n  padding-bottom: 10%;\\r\\n}\\r\\n\\r\\n#comment:focus { \\r\\n  outline: none;\\r\\n  border-color: #9ecaed;\\r\\n  box-shadow: 0 0 10px #9ecaed;\\r\\n}\\r\\n\\r\\n.postCommentBtn {\\r\\n  border-radius: 5px;\\r\\n  border: 2px solid #8d8ea8;\\r\\n  padding: 0 3px 0 3px;\\r\\n  margin-left: 2%;\\r\\n}\\r\\n\\r\\n.Tabs {\\r\\n  margin: 2% 0% 0% 5%;\\r\\n}\\r\\n\\r\\n.imgContainer {\\r\\n  width: 500px;\\r\\n}\\r\\n\\r\\n#fdate {\\r\\n  float: left;\\r\\n  padding-left: 2%;\\r\\n  width: 22%;\\r\\n}\\r\\n\\r\\n#fuser {\\r\\n  float: left;\\r\\n  width: 25%;\\r\\n}\\r\\n\\r\\n.Footer {\\r\\n  padding: 1% 0% 1% 1%\\r\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://javascript-capstone/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"*,\\r\\n*::before,\\r\\n*::after {\\r\\n  margin: 0;\\r\\n  padding: 0;\\r\\n  box-sizing: border-box;\\r\\n  font-family: 'Questrial', sans-serif;\\r\\n  font-weight: 400;\\r\\n  font-style: normal;\\r\\n}\\r\\n\\r\\n.NavBar {\\r\\n  font-size: 40px;\\r\\n}\\r\\n\\r\\n.popupWrapper {\\r\\n  position: absolute;\\r\\n  top: 0;\\r\\n  background-color: rgb(182, 214, 214);\\r\\n  margin-left: 25%;\\r\\n  padding: 2% 5% 2% 5%;\\r\\n  z-index: 9999;\\r\\n}\\r\\n\\r\\n#close {\\r\\n  padding-left: 95%;\\r\\n  font-weight: 800;\\r\\n  font-size: 25px;\\r\\n  cursor: pointer;\\r\\n}\\r\\n\\r\\n.imgContainer {\\r\\n  width: 500px;\\r\\n  border-color: #000;\\r\\n  box-shadow: 0 0 5px #000;\\r\\n  padding: 2% 3% 2% 3%;\\r\\n  margin-bottom: 3%;\\r\\n  background-color: rgba(0, 0, 0, 0.418);\\r\\n}\\r\\n\\r\\n#Hide {\\r\\n  display: none;\\r\\n}\\r\\n\\r\\n.title1 {\\r\\n  text-align: center;\\r\\n  font-weight: 700;\\r\\n}\\r\\n\\r\\n.detail1 {\\r\\n  float: left;\\r\\n  width: 45%;\\r\\n  margin-right: 10px;\\r\\n}\\r\\n\\r\\n.commentPost {\\r\\n  width: 60%;\\r\\n  margin: auto;\\r\\n  padding: 10px;\\r\\n  background-color: azure;\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  justify-content: center;\\r\\n}\\r\\n\\r\\n#name {\\r\\n  margin-left: 2%;\\r\\n  border-radius: 5px;\\r\\n  border: 2px solid #8d8ea8;\\r\\n  margin-top: 5%;\\r\\n  padding: 5px;\\r\\n  width: 90%;\\r\\n}\\r\\n\\r\\n#name:focus {\\r\\n  outline: none;\\r\\n  border-color: #9ecaed;\\r\\n  box-shadow: 0 0 10px #9ecaed;\\r\\n}\\r\\n\\r\\n#dComment,\\r\\n#aComment {\\r\\n  text-align: left;\\r\\n  margin-top: 25px;\\r\\n  font-weight: 600;\\r\\n  margin-left: 150px;\\r\\n}\\r\\n\\r\\n#comment {\\r\\n  border-radius: 5px;\\r\\n  border: 2px solid #8d8ea8;\\r\\n  width: 60%;\\r\\n  margin: 2% 30% 2% 2%;\\r\\n  padding: 5px 0 10% 5px;\\r\\n  width: 90%;\\r\\n}\\r\\n\\r\\n#comment:focus {\\r\\n  outline: none;\\r\\n  border-color: #9ecaed;\\r\\n  box-shadow: 0 0 10px #9ecaed;\\r\\n}\\r\\n\\r\\n.postCommentBtn {\\r\\n  border-radius: 5px;\\r\\n  border: 2px solid #8d8ea8;\\r\\n  padding: 0 3px 0 3px;\\r\\n  margin-right: 25px;\\r\\n  align-self: flex-end;\\r\\n}\\r\\n\\r\\n.Tabs {\\r\\n  margin: 2% 0% 0% 5%;\\r\\n}\\r\\n\\r\\n#fdate {\\r\\n  float: left;\\r\\n  padding-left: 2%;\\r\\n  width: 22%;\\r\\n}\\r\\n\\r\\n#fuser {\\r\\n  float: left;\\r\\n  width: 25%;\\r\\n}\\r\\n\\r\\n.Footer {\\r\\n  padding: 1% 0% 1% 1%;\\r\\n}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://javascript-capstone/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -117,7 +116,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_window_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/window.js */ \"./src/modules/window.js\");\n\r\n\r\n\r\nconst commentBtn = document.querySelectorAll('.CommentsButton');\r\n\r\n// Handels all \"comments\" button popup execution\r\ncommentBtn.forEach(btn => {\r\n  btn.addEventListener('click', (e) => {\r\n    (0,_modules_window_js__WEBPACK_IMPORTED_MODULE_1__.window)(e.target.id);\r\n  });  \r\n});\r\n\n\n//# sourceURL=webpack://javascript-capstone/./src/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_window_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/window.js */ \"./src/modules/window.js\");\n\r\n\r\n\r\nconst commentBtn = document.querySelectorAll('.CommentsButton');\r\n\r\n// Handels all \"comments\" button popup execution\r\ncommentBtn.forEach((btn) => {\r\n  btn.addEventListener('click', (e) => {\r\n    (0,_modules_window_js__WEBPACK_IMPORTED_MODULE_1__.window)(e.target.id);\r\n  });\r\n});\r\n\n\n//# sourceURL=webpack://javascript-capstone/./src/main.js?");
 
 /***/ }),
 
@@ -131,13 +130,23 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/modules/commentCounter.js":
+/*!***************************************!*\
+  !*** ./src/modules/commentCounter.js ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst commentCounter = () => {\n  const commentCounter = document.querySelector('.feedback');\n  const counter = commentCounter.childElementCount;\n  return counter;\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (commentCounter);\n\n//# sourceURL=webpack://javascript-capstone/./src/modules/commentCounter.js?");
+
+/***/ }),
+
 /***/ "./src/modules/commentPage.js":
 /*!************************************!*\
   !*** ./src/modules/commentPage.js ***!
   \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"commentPage\": () => (/* binding */ commentPage),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _fetchComment_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./fetchComment.js */ \"./src/modules/fetchComment.js\");\n\n\nconst body = document.querySelector('body');\nconst detailContainer = document.createElement('div');\n\nconst commentPage = async (objectDetails, loops) => {\n  const comments = await (0,_fetchComment_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(objectDetails.objectID);\n\n  detailContainer.innerHTML = `\n    <section id=\"card\">\n        <image class=\"imgContainer\" src = \"${objectDetails.primaryImage}\" alt=\"Object Image\"/>\n        <p id='Close'>X</p>\n        <h2 class='title1 detail'>${objectDetails.title}</h2>\n        <p class='detail1'>Artist Display Name: ${objectDetails.artistDisplayName}</p>\n        <p class='detail2'>Dimensions: ${objectDetails.dimensions}</p>\n        <p class='detail1'>Object name: ${objectDetails.objectName}</p>\n        <p class='detail2'>Object Date: ${objectDetails.objectDate}</p>\n        <p class='detail1'>City: ${objectDetails.city}</p>\n        <p class='detail2'>Country: ${objectDetails.country}</p>\n        <p>Comments (${comments.length})</p>`;\n\n  if (comments) {\n    comments.forEach((comment) => {\n      detailContainer.innerHTML\n                += `<div class=\"feedback\">\n                    <p id='fdate'>${comment.creation_date} </p>\n                    <p id='fuser'>${comment.username}: </p>\n                    <p id='fcomment'>${comment.comment}</p>             \n                </div>`;\n    });\n  }\n\n  detailContainer.innerHTML += `<p>Add a comment</p>\n        <input id='name' placeholder='name' required></input>\n        <textarea id='comment' placeholder='Your insights' required></textarea>\n        <button type='button' class='postCommentBtn' data-index = \"${objectDetails.objectID}\">Comment</button>\n        </section>`;\n  body.appendChild(detailContainer);\n  detailContainer.classList.add('styling');\n  loops = comments.length;\n  return loops;\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (commentPage);\n\n\n//# sourceURL=webpack://javascript-capstone/./src/modules/commentPage.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _fetchComment_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./fetchComment.js */ \"./src/modules/fetchComment.js\");\n/* harmony import */ var _commentCounter_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./commentCounter.js */ \"./src/modules/commentCounter.js\");\n\r\n\r\n\r\nconst body = document.querySelector('body');\r\nconst detailContainer = document.createElement('div');\r\n\r\nconst commentPage = async (objectDetails) => {\r\n\r\n  const commentsRes = await (0,_fetchComment_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(objectDetails.objectID);\r\n  const objInfo = `\r\n    <section id=\"card\">\r\n        <p id='close'>X</p>\r\n        <image class=\"imgContainer\" src = \"${objectDetails.primaryImage}\" alt=\"Object Image\"/>\r\n        <h2 class='title1 detail'>${objectDetails.title}</h2>\r\n        <p class='detail1'><strong> Department:</strong> ${objectDetails.department}</p>\r\n        <p class='detail2'><strong>  Culture: </strong> ${objectDetails.culture}</p>\r\n        <p class='detail1'><strong>  Dimensions: </strong> ${objectDetails.dimensions}</p>\r\n        <p class='detail2'><strong> Date: </strong> ${objectDetails.objectBeginDate} to ${objectDetails.objectEndDate} </p>\r\n        `;\r\n\r\n  let comment = '';\r\n  if (commentsRes) {\r\n    comment += `<p id='dComment'></p> <div class=\"feedback\">`\r\n    for (let i = 0; i < commentsRes.length; i += 1) {\r\n      comment \r\n        += `\r\n        <div>\r\n          <p id='fdate'>${commentsRes[i].creation_date} </p>\r\n          <p id='fuser'>${commentsRes[i].username}: </p>\r\n          <p id='fcomment'>${commentsRes[i].comment}</p>\r\n        </div>`\r\n    }\r\n    comment += `</div>`;\r\n  }\r\n\r\n  const commentForm = `<p id='aComment'>Add a comment</p>\r\n      <div class=\"commentPost\">\r\n        <input id='name' placeholder='name' required></input>\r\n        <textarea id='comment' placeholder='Your insights' required></textarea>\r\n        <button type='button' class='postCommentBtn' data-index = \"${objectDetails.objectID}\">Comment</button>\r\n      </div>\r\n        </section>`;\r\n\r\n  detailContainer.innerHTML = objInfo + comment + commentForm;\r\n  body.appendChild(detailContainer);\r\n  detailContainer.className = 'popup';\r\n  detailContainer.classList.add('popupWrapper');\r\n\r\n  const commentCount = (0,_commentCounter_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]) ();\r\n  if (_commentCounter_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]) {\r\n    document.querySelector('#dComment').innerHTML = `Comments (${commentCount})`\r\n  }\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (commentPage);\r\n\n\n//# sourceURL=webpack://javascript-capstone/./src/modules/commentPage.js?");
 
 /***/ }),
 
@@ -147,7 +156,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _baseURLs_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./baseURLs.js */ \"./src/modules/baseURLs.js\");\n\n\nconst fetchComment = async (id) => {\n  const response = await fetch(`${_baseURLs_js__WEBPACK_IMPORTED_MODULE_0__.commentURL}?item_id=${id}`, {\n    method: 'GET',\n    headers: {\n      'Content-Type': 'application/json',\n    },\n  });\n  const res = await response.json();\n  return res;\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (fetchComment);\n\n\n//# sourceURL=webpack://javascript-capstone/./src/modules/fetchComment.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _baseURLs_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./baseURLs.js */ \"./src/modules/baseURLs.js\");\n\r\n\r\nconst fetchComment = async (id) => {\r\n  const response = await fetch(`${_baseURLs_js__WEBPACK_IMPORTED_MODULE_0__.commentURL}?item_id=${id}`, {\r\n    method: 'GET',\r\n    headers: {\r\n      'Content-Type': 'application/json',\r\n    },\r\n  });\r\n  const res = await response.json();\r\n  return res;\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (fetchComment);\r\n\n\n//# sourceURL=webpack://javascript-capstone/./src/modules/fetchComment.js?");
 
 /***/ }),
 
@@ -157,7 +166,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _baseURLs_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./baseURLs.js */ \"./src/modules/baseURLs.js\");\n\r\n\r\nconst fetchObjDetails = async (id) => {\r\n    const response = await fetch(_baseURLs_js__WEBPACK_IMPORTED_MODULE_0__.externalApi + id);\r\n    const result = await response.json();\r\n    return result; \r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (fetchObjDetails);\n\n//# sourceURL=webpack://javascript-capstone/./src/modules/fetchObjDetails.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _baseURLs_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./baseURLs.js */ \"./src/modules/baseURLs.js\");\n\r\n\r\nconst fetchObjDetails = async (id) => {\r\n  const response = await fetch(_baseURLs_js__WEBPACK_IMPORTED_MODULE_0__.externalApi + id);\r\n  const result = await response.json();\r\n  return result;\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (fetchObjDetails);\n\n//# sourceURL=webpack://javascript-capstone/./src/modules/fetchObjDetails.js?");
 
 /***/ }),
 
@@ -167,7 +176,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _baseURLs_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./baseURLs.js */ \"./src/modules/baseURLs.js\");\n/* harmony import */ var _window_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./window.js */ \"./src/modules/window.js\");\n\r\n\r\n\r\nconst sendData = async (objId) => {\r\n    let username = document.getElementById('name').value;\r\n    let comment = document.getElementById('comment').value;\r\n    await fetch(_baseURLs_js__WEBPACK_IMPORTED_MODULE_0__.commentURL, {\r\n        method: 'POST',\r\n        headers: {'content-type': 'application/json; charset=UTF-8' },\r\n        body: JSON.stringify({\r\n          item_id: `${objId}`,\r\n          username: `${username}`,\r\n          comment: `${comment}`,\r\n        }),\r\n        \r\n      });\r\n    username = '';\r\n    comment = '';\r\n    (0,_window_js__WEBPACK_IMPORTED_MODULE_1__.window)(objId);\r\n  };\r\n\r\n  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (sendData);\n\n//# sourceURL=webpack://javascript-capstone/./src/modules/postComment.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _baseURLs_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./baseURLs.js */ \"./src/modules/baseURLs.js\");\n/* harmony import */ var _commentCounter_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./commentCounter.js */ \"./src/modules/commentCounter.js\");\n\r\n\r\n\r\nconst sendData = async (objId) => {\r\n  let username = document.getElementById('name').value;\r\n  let comment = document.getElementById('comment').value;\r\n  await fetch(_baseURLs_js__WEBPACK_IMPORTED_MODULE_0__.commentURL, {\r\n    method: 'POST',\r\n    headers: { 'content-type': 'application/json; charset=UTF-8' },\r\n    body: JSON.stringify({\r\n      item_id: `${objId}`,\r\n      username: `${username}`,\r\n      comment: `${comment}`,\r\n    }),\r\n\r\n  });\r\n  username = '';\r\n  comment = '';\r\n  const commentCount = (0,_commentCounter_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]) ();\r\n  if (_commentCounter_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"] > 0) {\r\n    document.querySelector('#dComment').innerHTML = `Comments (${commentCount})`\r\n  }\r\n};\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (sendData);\n\n//# sourceURL=webpack://javascript-capstone/./src/modules/postComment.js?");
 
 /***/ }),
 
@@ -177,7 +186,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"window\": () => (/* binding */ window)\n/* harmony export */ });\n/* harmony import */ var _baseURLs_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./baseURLs.js */ \"./src/modules/baseURLs.js\");\n/* harmony import */ var _fetchObjDetails_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./fetchObjDetails.js */ \"./src/modules/fetchObjDetails.js\");\n/* harmony import */ var _commentPage_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./commentPage.js */ \"./src/modules/commentPage.js\");\n/* harmony import */ var _postComment_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./postComment.js */ \"./src/modules/postComment.js\");\n\r\n\r\n\r\n\r\n\r\n// eslint-disable-next-line import/prefer-default-export\r\nconst window = async (index) => {\r\n  if (index <= 5) {\r\n    index = _baseURLs_js__WEBPACK_IMPORTED_MODULE_0__.objectId[index];\r\n  }\r\n  const objDetails = await (0,_fetchObjDetails_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(index);\r\n  (0,_commentPage_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(objDetails);\r\n};\r\n\r\ndocument.addEventListener('click', (event) => {\r\n  event.preventDefault();\r\n  if (event.target.className === 'postCommentBtn') {\r\n    const objId = event.target.dataset.index;\r\n    (0,_postComment_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(objId);   \r\n  }\r\n});\n\n//# sourceURL=webpack://javascript-capstone/./src/modules/window.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"window\": () => (/* binding */ window)\n/* harmony export */ });\n/* harmony import */ var _baseURLs_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./baseURLs.js */ \"./src/modules/baseURLs.js\");\n/* harmony import */ var _fetchObjDetails_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./fetchObjDetails.js */ \"./src/modules/fetchObjDetails.js\");\n/* harmony import */ var _commentPage_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./commentPage.js */ \"./src/modules/commentPage.js\");\n/* harmony import */ var _postComment_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./postComment.js */ \"./src/modules/postComment.js\");\n\r\n\r\n\r\n\r\n\r\n// eslint-disable-next-line import/prefer-default-export\r\nconst window = async (index) => {\r\n  if (index <= 5) {\r\n    index = _baseURLs_js__WEBPACK_IMPORTED_MODULE_0__.objectId[index];\r\n  }\r\n  const objDetails = await (0,_fetchObjDetails_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(index);\r\n  (0,_commentPage_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(objDetails);\r\n};\r\n\r\ndocument.addEventListener('click', (event) => {\r\n  event.preventDefault();\r\n  if (event.target.className === 'postCommentBtn') {\r\n    const objId = event.target.dataset.index;\r\n    (0,_postComment_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(objId);\r\n    window(objId)\r\n  } \r\n  else if(event.target.id === 'close') {\r\n    const body = document.querySelector('body');\r\n    const detailContainer = document.querySelector('.popup');\r\n    detailContainer.classList.remove('popupWrapper')\r\n    body.removeChild(detailContainer);\r\n  }\r\n});\n\n//# sourceURL=webpack://javascript-capstone/./src/modules/window.js?");
 
 /***/ })
 
@@ -254,82 +263,10 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	})();
 /******/ 	
 /************************************************************************/
-/******/ 	// The module cache
-/******/ 	var __webpack_module_cache__ = {};
-/******/ 	
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/ 		// Check if module is in cache
-/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
-/******/ 		if (cachedModule !== undefined) {
-/******/ 			return cachedModule.exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			id: moduleId,
-/******/ 			// no module.loaded needed
-/******/ 			exports: {}
-/******/ 		};
-/******/ 	
-/******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
-/******/ 	
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/ 	
-/************************************************************************/
-/******/ 	/* webpack/runtime/compat get default export */
-/******/ 	(() => {
-/******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = (module) => {
-/******/ 			var getter = module && module.__esModule ?
-/******/ 				() => (module['default']) :
-/******/ 				() => (module);
-/******/ 			__webpack_require__.d(getter, { a: getter });
-/******/ 			return getter;
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/define property getters */
-/******/ 	(() => {
-/******/ 		// define getter functions for harmony exports
-/******/ 		__webpack_require__.d = (exports, definition) => {
-/******/ 			for(var key in definition) {
-/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
-/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
-/******/ 				}
-/******/ 			}
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/make namespace object */
-/******/ 	(() => {
-/******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = (exports) => {
-/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 			}
-/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/nonce */
-/******/ 	(() => {
-/******/ 		__webpack_require__.nc = undefined;
-/******/ 	})();
-/******/ 	
-/************************************************************************/
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/main.js");
 /******/ 	var __webpack_exports__ = __webpack_require__("./src/main.js");
 /******/ 	
 /******/ })()
