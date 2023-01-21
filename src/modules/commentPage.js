@@ -1,5 +1,5 @@
 import fetchComment from './fetchComment.js';
-import commentCounter from './commentCounter.js';
+import { commentCounter } from './counter.js';
 
 const body = document.querySelector('body');
 const detailContainer = document.createElement('div');
@@ -45,7 +45,7 @@ const commentPage = async (objectDetails) => {
   body.appendChild(detailContainer);
 
   const commentCount = commentCounter();
-  if (commentCounter) {
+  if (commentCount) {
     document.querySelector('#dComment').innerHTML = `Comments (${commentCount})`;
   }
 };
