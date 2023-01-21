@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for objCounter.js</title>
+    <title>Code coverage report for commentCounter.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="prettify.css" />
     <link rel="stylesheet" href="base.css" />
@@ -19,7 +19,7 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="index.html">All files</a> objCounter.js</h1>
+        <h1><a href="index.html">All files</a> commentCounter.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
@@ -75,13 +75,13 @@
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const objectsCounter = () =&gt; {
-  const objectsWrapper = document.querySelector('.content-Wrapper');
-  const objCount = objectsWrapper.children.length;
-  return objCount;
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const commentCounter = () =&gt; {
+  const commentCounter = document.querySelector('.feedback');
+  const counter = commentCounter.childElementCount;
+  return counter;
 };
 &nbsp;
-export default objectsCounter;</pre></td></tr></table></pre>
+export default commentCounter;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->
