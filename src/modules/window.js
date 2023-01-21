@@ -1,7 +1,7 @@
 import { objectId } from './baseURLs.js';
 import fetchObjDetails from './fetchObjDetails.js';
 import commentPage from './commentPage.js';
-import sendData from './postComment.js'
+import sendData from './postComment.js';
 
 // eslint-disable-next-line import/prefer-default-export
 export const window = async (index) => {
@@ -16,6 +16,6 @@ document.addEventListener('click', (event) => {
   event.preventDefault();
   if (event.target.className === 'postCommentBtn') {
     const objId = event.target.dataset.index;
-    sendData(objId);   
+    sendData(objId);
   }
 });
