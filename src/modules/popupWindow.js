@@ -3,7 +3,7 @@ import commentPage from './commentPage.js';
 import sendData from './postComment.js';
 
 // eslint-disable-next-line import/prefer-default-export
-export const popupWindow = async (index) => {
+const popupWindow = async (index) => {
   const objDetails = await fetchObjDetails(index);
   commentPage(objDetails);
 };
@@ -22,3 +22,5 @@ document.addEventListener('click', (event) => {
     body.removeChild(detailContainer);
   }
 });
+
+export default popupWindow;
