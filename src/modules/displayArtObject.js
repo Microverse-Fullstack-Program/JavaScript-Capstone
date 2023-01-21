@@ -20,8 +20,7 @@ const printItem = async (objectId, likes) => {
           <p class="likeCount"> ${likes} Likes</p>
         </div>
     </div>
-    <button class="homepageBtn" id="comments"> Comments </button>
-    <button class="homepageBtn" id="reservation"> Reservations </button>`;
+    <button class="homepageBtn" id="comments" data-index = "${result.objectID}"> Comments </button>`;
   itemContainer.appendChild(itemCard);
 };
 
