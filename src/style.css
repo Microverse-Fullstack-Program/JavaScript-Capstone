@@ -9,8 +9,8 @@
   font-style: normal;
 }
 
-.NavBar {
-  font-size: 40px;
+body {
+  background-color: #c4dda4;
 }
 
 .popupWrapper {
@@ -108,8 +108,156 @@
   align-self: flex-end;
 }
 
-.Tabs {
-  margin: 2% 0% 0% 5%;
+.NavBar {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 10px 45px 15px 45px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: azure;
+}
+
+.logo {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  padding: 10px 5px;
+  background: #fff;
+  border: 3px solid #000;
+  color: #000;
+  text-align: center;
+  font-size: 13px;
+}
+
+.NavBar a {
+  margin: 0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: crimson;
+}
+
+a:active {
+  color: crimson;
+  background-color: #202d77;
+}
+
+#tab1,
+.counter {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  text-shadow: 1px 1px blue;
+}
+
+.content-Wrapper {
+  margin: 10px 45px 45px 45px;
+  padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 5%;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 1%;
+  margin-bottom: 3%;
+  background-color: #f7fafa;
+  border: solid 2px rgb(27, 27, 27);
+}
+
+.imgWrapper img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.likes,
+.homepageBtn {
+  align-self: flex-end;
+}
+
+.likes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.likes button {
+  box-shadow: none;
+  border: none;
+}
+
+.likes img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+#comments {
+  margin-bottom: 15px;
+}
+
+.homepageBtn {
+  width: max-content;
+  padding: 0 5px;
+  border: 2px solid;
+  box-shadow: 3px 3px black;
+}
+
+.about-the,
+.contacts {
+  display: flex;
+  margin: 10px 45px 45px 45px;
+  padding: 1%;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.about-the {
+  flex-direction: column;
+  gap: 5%;
+}
+
+.contacts {
+  justify-content: space-evenly;
+}
+
+.authors {
+  padding: 10px;
+  background-color: #eff0f1;
+}
+
+.authors address {
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+}
+
+.authors p {
+  margin-bottom: 1%;
+}
+
+h3 {
+  padding-left: 15px;
+  font-weight: bold;
 }
 
 #fdate {
@@ -124,5 +272,8 @@
 }
 
 .Footer {
-  padding: 1% 0% 1% 1%;
+  padding: 1% 0% 1% 2%;
+  border: solid 2px rgb(27, 27, 27);
+  font-size: 16px;
+  background-color: rgb(191, 221, 221);
 }

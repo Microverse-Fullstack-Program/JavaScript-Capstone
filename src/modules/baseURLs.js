@@ -3,6 +3,4 @@ const involvementApi = 'https://us-central1-involvement-api.cloudfunctions.net/c
 const commentURL = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/2vwQGKiBoiPpBBf2KqSV/comments';
 const objectId = [842, 68123, 98123, 188523, 288523, 411941];
 
-export {
-  externalApi, involvementApi, commentURL, objectId,
-};
+export { externalApi, involvementApi, commentURL, objectId };

@@ -116,7 +116,17 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_window_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/window.js */ \"./src/modules/window.js\");\n\r\n\r\n\r\nconst commentBtn = document.querySelectorAll('.CommentsButton');\r\n\r\n// Handels all \"comments\" button popup execution\r\ncommentBtn.forEach((btn) => {\r\n  btn.addEventListener('click', (e) => {\r\n    (0,_modules_window_js__WEBPACK_IMPORTED_MODULE_1__.window)(e.target.id);\r\n  });\r\n});\r\n\n\n//# sourceURL=webpack://javascript-capstone/./src/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_homepage_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/homepage.js */ \"./src/modules/homepage.js\");\n/* harmony import */ var _modules_postLikes_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/postLikes.js */ \"./src/modules/postLikes.js\");\n/* harmony import */ var _modules_about__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/about */ \"./src/modules/about.js\");\n/* harmony import */ var _modules_contact__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/contact */ \"./src/modules/contact.js\");\n\n\n\n\n\n\n// handling onclick event for the like, comment and reservation buttons\ndocument.addEventListener('click', (event) => {\n  event.preventDefault();\n  const parentClass = event.target.parentElement;\n  const objId = parentClass.dataset.index;\n\n  if (event.target.className === 'likeBtn') {\n    const likeCounts = parentClass.lastElementChild;\n    (0,_modules_postLikes_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(objId, likeCounts);\n  } else if (event.target.className === 'homepageBtn') {\n    if (event.target.id === 'comments') {\n      // popup comments page\n    } else if (event.target.id === 'reservation') {\n      // popup reservation page\n    }\n  }\n});\n\n// Script For Single Page Application\nconst navBtn = document.querySelectorAll('.NavBar a');\nconst section = document.querySelectorAll('section');\nconst title = document.querySelector('.heading');\nnavBtn.forEach(btn => {\n  btn.addEventListener('click', (e) => {\n    if(e.target.className === 'home') {\n      section[0].style.display = 'flex';\n      section[1].style.display = 'none';\n      section[2].style.display = 'none';\n      title.innerHTML = 'Museum of Art'\n    } else if(e.target.className === 'about' ) {\n      section[0].style.display = 'none';\n      section[1].style.display = 'flex';\n      section[2].style.display = 'none';\n      title.innerHTML = 'The Museum of Art Collection API';\n      const aboutMA = document.querySelector('.about-the')\n      aboutMA.innerHTML = _modules_about__WEBPACK_IMPORTED_MODULE_3__[\"default\"];\n    } else if(e.target.className === 'contact') {\n      section[0].style.display = 'none';\n      section[1].style.display = 'none';\n      section[2].style.display = 'flex';\n      title.innerHTML = 'Meet the Authors';\n      const authors = document.querySelector('.contacts')\n      authors.innerHTML = _modules_contact__WEBPACK_IMPORTED_MODULE_4__[\"default\"];\n    }\n  });\n});\n\nwindow.addEventListener('DOMContentLoaded', _modules_homepage_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\n\n\n//# sourceURL=webpack://javascript-capstone/./src/main.js?");
+
+/***/ }),
+
+/***/ "./src/modules/about.js":
+/*!******************************!*\
+  !*** ./src/modules/about.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst about = `\r\n<p>The <a href=\"https://www.metmuseum.org\">Metropolitan Museum of Art</a> \r\npresents over 5,000 years of art from around the world for everyone to experience and enjoy. \r\nThe Museum lives in two iconic sites in New York City—The Met Fifth Avenue and The Met Cloisters. \r\nMillions of people also take part in The Met experience online.\r\n</p>\r\n<p>Since it was founded in 1870, The Met has always aspired to be more than a treasury of rare and \r\nbeautiful objects. Every day, art comes alive in the Museum’s galleries and through its exhibitions\r\nand events, revealing both new ideas and unexpected connections across time and across cultures.\r\n</p>\r\n<p>The Metropolitan Museum of Art provides select datasets of information on more than 470,000 artworks \r\nin its Collection for unrestricted commercial and noncommercial use. To the extent possible under law, \r\nThe Metropolitan Museum of Art has waived all copyright and related or neighboring rights to this dataset \r\nusing the <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">Creative Commons Zero</a> license. \r\nThis work is published from the United States of America. These select datasets are now available for use \r\nin any media without permission or fee; they also include identifying data for artworks under copyright. \r\nThe datasets support the search, use, and interaction with the Museum’s collection.\r\n</p>\r\n<p>The Met’s Open Access datasets are available through our API. \r\nThe API (RESTful web service in JSON format) gives access to all of The Met’s Open Access data \r\nand to corresponding high resolution images (JPEG format) that are in the public domain.\r\n</p>\r\n<h2 id=\"access-to-the-api\">Access to the API</h2>\r\n<p>At this time, we do not require API users to register or obtain an API key to use the service. \r\nPlease limit request rate to 80 requests per second.\r\n</p>\r\n<h2 id=\"endpoints\">Endpoints</h2>\r\n<p>There are API endpoints available for the following elements:</p>\r\n<ul>\r\n<li><strong><a href=\"#objects\">Objects</a>:</strong> \r\n    A listing of all valid Object IDs available for access.\r\n</li>\r\n<li><strong><a href=\"#object\">Object</a>:</strong> \r\n    A record for an object, containing all open access data about that object, \r\n    including its image (if the image is available under Open Access)\r\n</li>\r\n<li><strong><a href=\"#departments\">Departments</a>:</strong> \r\n    A listing of all valid departments, with their department ID and \r\n    the department display name\r\n</li>\r\n<li><strong><a href=\"#search\">Search</a>:</strong> \r\n    A listing of all Object IDs for objects that contain the search query \r\n    within the object’s data\r\n</li>\r\n</ul>`\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (about);\n\n//# sourceURL=webpack://javascript-capstone/./src/modules/about.js?");
 
 /***/ }),
 
@@ -241,6 +251,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -255,6 +277,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */

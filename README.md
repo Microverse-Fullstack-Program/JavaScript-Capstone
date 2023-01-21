@@ -6,6 +6,7 @@ Install
 - npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
 - npm install webpack webpack-cli
 - npm install css-loader style-loader
+- npm install image-webpack-loader --save-dev
 - npm i --save-dev html-webpack-plugin
 - npm install --save-dev jest
 
@@ -14,7 +15,6 @@ Testing/Validate
 - npx stylelint "**/*.{css,scss}"
 - npx eslint .
 - npm run build
-
 -->
 
 <a name="readme-top"></a>
