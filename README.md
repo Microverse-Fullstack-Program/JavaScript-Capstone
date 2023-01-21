@@ -21,10 +21,10 @@ Testing/Validate
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  ![image](https://user-images.githubusercontent.com/73167960/213881666-7cd7114d-5257-4a8d-adff-86bd138359d0.png)
   <br/>
 
-  <h3><b>Microverse README</b></h3>
+  <h3><b>Museum of Art API-based webapp Project README</b></h3>
 
 </div>
 
