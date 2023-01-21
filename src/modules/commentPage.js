@@ -40,9 +40,9 @@ const commentPage = async (objectDetails) => {
         </section>`;
 
   detailContainer.innerHTML = objInfo + comment + commentForm;
-  body.appendChild(detailContainer);
   detailContainer.className = 'popup';
   detailContainer.classList.add('popupWrapper');
+  body.appendChild(detailContainer);
 
   const commentCount = commentCounter();
   if (commentCounter) {
