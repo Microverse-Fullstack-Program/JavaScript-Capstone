@@ -7,12 +7,14 @@ Install
 - npm install webpack webpack-cli
 - npm install css-loader style-loader
 - npm i --save-dev html-webpack-plugin
+- npm install --save-dev jest
 
 Testing/Validate
 - npx hint .
 - npx stylelint "**/*.{css,scss}"
 - npx eslint .
 - npm run build
+
 -->
 
 <a name="readme-top"></a>
