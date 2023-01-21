@@ -1,7 +1,7 @@
-import { commentURL } from './baseURLs.js';
+import { commentsURL } from './baseURLs.js';
 
 const fetchComment = async (id) => {
-  const response = await fetch(`${commentURL}?item_id=${id}`, {
+  const response = await fetch(`${commentsURL}?item_id=${id}`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
