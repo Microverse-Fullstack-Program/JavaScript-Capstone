@@ -1,9 +1,9 @@
 import thumbsUp from '../assets/thumbs_up.png';
-import fetchArtObjects from './fetchArtObject.js';
+import fetchArtObjects from './fetchArtObjects.js';
 
 const itemContainer = document.querySelector('.content-Wrapper');
 
-const printItem = async (objectId, likes) => {
+const displayArtObjects = async (objectId, likes) => {
   const result = await fetchArtObjects(objectId);
 
   const itemCard = document.createElement('div');
@@ -20,8 +20,9 @@ const printItem = async (objectId, likes) => {
           <p class="likeCount"> ${likes} Likes</p>
         </div>
     </div>
-    <button class="homepageBtn" id="comments" data-index = "${result.objectID}"> Comments </button>`;
+    <button class="homepageBtn" id="comments" data-index = "${result.objectID}"> Comments </button>
+    <button class="homepageBtn" id="reservation" data-index = "${result.objectID}"> Reservations </button>`;
   itemContainer.appendChild(itemCard);
 };
 
-export default printItem;
+export default displayArtObjects;

@@ -1,7 +1,7 @@
-import objectsId from './objectIds.js';
-import getLikes from './getLikes.js';
-import printArtObjects from './displayArtObject.js';
-import objectsCounter from './objCounter.js';
+import objectsId from './objectsId.js';
+import fetchLikes from './fetchLikes.js';
+import displayArtObjects from './displayArtObjects.js';
+import { objectsCounter } from './counter.js';
 
 const objectCount = document.querySelector('.counter');
 
@@ -17,14 +17,14 @@ const checkLikes = (likeCounts, objId) => {
 
 // print the objects on homepage
 const loadHomePage = async () => {
-  const likeCounts = await getLikes();
+  const likeCounts = await fetchLikes();
 
   objectsId.forEach((id) => {
     const likes = checkLikes(likeCounts, id);
     if (likes) {
-      printArtObjects(id, likes);
+      displayArtObjects(id, likes);
     } else {
-      printArtObjects(id, 0);
+      displayArtObjects(id, 0);
     }
   });
 

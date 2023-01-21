@@ -1,10 +1,10 @@
-import { commentURL } from './baseURLs.js';
-import commentCounter from './commentCounter.js';
+import { commentsURL } from './baseURLs.js';
+import { commentCounter } from './counter.js';
 
-const sendData = async (objId) => {
+const postComment = async (objId) => {
   let username = document.getElementById('name').value;
   let comment = document.getElementById('comment').value;
-  await fetch(commentURL, {
+  await fetch(commentsURL, {
     method: 'POST',
     headers: { 'content-type': 'application/json; charset=UTF-8' },
     body: JSON.stringify({
@@ -22,4 +22,4 @@ const sendData = async (objId) => {
   }
 };
 
-export default sendData;
+export default postComment;

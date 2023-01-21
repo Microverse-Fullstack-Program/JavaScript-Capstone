@@ -3,7 +3,7 @@ import loadHomePage from './modules/homepage.js';
 import postLikes from './modules/postLikes.js';
 import about from './modules/about.js';
 import contact from './modules/contact.js';
-import popupWindow from './modules/popupWindow.js';
+import { commentPopupWindow, reservationPopupWindow} from './modules/popupWindow.js';
 
 // handling onclick event for the like, comment and reservation buttons
 document.addEventListener('click', (event) => {
@@ -16,7 +16,10 @@ document.addEventListener('click', (event) => {
     postLikes(objId, likeCounts);
   } else if (event.target.className === 'homepageBtn') {
     if (event.target.id === 'comments') {
-      popupWindow(event.target.dataset.index);
+      commentPopupWindow(event.target.dataset.index);
+      document.querySelector('#main').classList.add('blur');
+    } else if (event.target.id === 'reservation') {
+      reservationPopupWindow(event.target.dataset.index);
       document.querySelector('#main').classList.add('blur');
     }
   }

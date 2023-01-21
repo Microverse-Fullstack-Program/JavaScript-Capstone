@@ -1,8 +1,8 @@
-import { involvementApi } from './baseURLs.js';
-import getLikes from './getLikes.js';
+import { likesURL } from './baseURLs.js';
+import fetchLikes from './fetchLikes.js';
 
 const postLikes = async (objId, likes) => {
-  const resource = await fetch(involvementApi, {
+  const resource = await fetch(likesURL, {
     method: 'POST',
     headers: {
       'content-type': 'application/json; charset=UTF-8',
@@ -12,7 +12,7 @@ const postLikes = async (objId, likes) => {
     }),
   });
 
-  const likeCount = await getLikes();
+  const likeCount = await fetchLikes();
   likeCount.forEach((element) => {
     if (element.item_id === objId) {
       likes.innerHTML = `${element.likes} Likes`;

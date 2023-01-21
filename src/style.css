@@ -210,7 +210,8 @@ h3 {
   margin-right: 10px;
 }
 
-.commentPost {
+.commentPost,
+.reservationPost {
   width: 60%;
   margin: auto;
   padding: 10px;
@@ -220,13 +221,26 @@ h3 {
   justify-content: center;
 }
 
-#name {
+#name,
+#nameReserve,
+#sDate,
+#eDate {
   margin-left: 2%;
   border-radius: 5px;
   border: 2px solid #8d8ea8;
   margin-top: 5%;
   padding: 5px;
+
+}
+
+#name {
   width: 90%;
+}
+
+#nameReserve,
+#sDate,
+#eDate {
+  width: 80%;
 }
 
 #name:focus {
@@ -236,7 +250,9 @@ h3 {
 }
 
 #dComment,
-#aComment {
+#aComment,
+#dReserve,
+#aReserve {
   text-align: left;
   margin-top: 25px;
   font-weight: 600;
@@ -257,12 +273,20 @@ h3 {
   box-shadow: 0 0 10px #9ecaed;
 }
 
-.postCommentBtn {
+.postCommentBtn,
+.postReserveBtn {
   border-radius: 5px;
   border: 2px solid #8d8ea8;
   padding: 0 3px 0 3px;
-  margin-right: 25px;
   align-self: flex-end;
+}
+
+.postCommentBtn {
+  margin-right: 25px;
+}
+
+.postReserveBtn {
+  margin: 10px 65px 5px 0;
 }
 
 #fdate {
