@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 import commentCounter from './commentCounter.js';
 
 describe('test on commentCounter function', () => {

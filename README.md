@@ -6,6 +6,7 @@ Install
 - npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
 - npm install webpack webpack-cli
 - npm install css-loader style-loader
+- npm install image-webpack-loader --save-dev
 - npm i --save-dev html-webpack-plugin
 - npm install --save-dev jest
 
@@ -14,17 +15,16 @@ Testing/Validate
 - npx stylelint "**/*.{css,scss}"
 - npx eslint .
 - npm run build
-
 -->
 
 <a name="readme-top"></a>
 
 <div align="center">
 
-  ![image](https://user-images.githubusercontent.com/73167960/213881784-4b91585a-1374-45eb-b39f-181cac1796f5.png)
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Museum of Art API-based webapp Project README</b></h3>
+  <h3><b>Microverse README</b></h3>
 
 </div>
 
@@ -56,7 +56,7 @@ Testing/Validate
 
 # 📖 [JavaScript Capstone] <a name="about-project"></a>
 
-> I have built a this project using HTML, CSS and JavaScript .
+> A **Museum of Art** API-based webapp built during the Microverse online program as part of JavaScript module Capstone project in a team of two person.  The purpose of project was to provide hand on experience on javascript, unit-testing and API. The app is built using the frontend technologies HTML, CSS and JavaScript.
 
 **[JavaScript Capstone]** 
 
@@ -64,12 +64,14 @@ Testing/Validate
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> -  VS Editor
+> - VS Editor
+> - GitHub and Gitflow
 > - HTML5
 > - CSS3
 > - JavaScript ES6
 > - Webpack
 > - JavaScript API
+> - Jest Unit testing
 
 <!-- Features -->
 
@@ -79,13 +81,22 @@ Testing/Validate
 
 > - **Interactive**
 > - **Responsive**
-> - **API based**
+> - **API enabled**
 
-- **[js project ]**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- LIVE DEMO -->
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link]( https://microverse-fullstack-program.github.io/JavaScript-Capstone/dist)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE VIDEO -->
+
+## 🚀 Live Demo Video <a name="live-video"></a>
+
+- [Live Video Link](https://drive.google.com/file/d/17xSKFWcw2C6TQKhvuokMd2S8MeHMoyXV/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,7 +119,7 @@ Clone this repository to your desired folder:
 2. Navigate to the directory where you want clone the copy of this repository
 3. Create new directory [optional]
 4. Clone the repo using the below command
- > git clone  https://github.com/Microverse-Fullstack-Program/JavaScript-Capstone.git
+ > git clone https://github.com/Microverse-Fullstack-Program/JavaScript-Capstone.git
 
  ### Usage
 
@@ -168,7 +179,7 @@ Give a ⭐️ if you like this project!
 
 * [Readme-template](https://github.com/microverseinc/readme-template)
 * [Linter for HTML & CSS3 & JavaScript](https://github.com/microverseinc/linters-config)
-* [API]("#")
+* [The Metropolitan Museum of Art Collection API]("https://metmuseum.github.io/#objects")
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
