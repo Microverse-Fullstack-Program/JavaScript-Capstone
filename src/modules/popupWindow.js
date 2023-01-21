@@ -1,19 +1,29 @@
-import fetchObjDetails from './fetchObjDetails.js';
+import fetchObjDetails from './fetchArtObjects.js';
 import commentPage from './commentPage.js';
-import sendData from './postComment.js';
+import postComment from './postComment.js';
+import reservationPage from './reservationPage.js';
+import postReservation from './postReservation.js';
 
-// eslint-disable-next-line import/prefer-default-export
-const popupWindow = async (index) => {
+const commentPopupWindow = async (index) => {
   const objDetails = await fetchObjDetails(index);
   commentPage(objDetails);
+};
+
+const reservationPopupWindow = async (index) => {
+  const objDetails = await fetchObjDetails(index);
+  reservationPage(objDetails);
 };
 
 document.addEventListener('click', (event) => {
   event.preventDefault();
   if (event.target.className === 'postCommentBtn') {
     const objId = event.target.dataset.index;
-    sendData(objId);
+    postComment(objId);
     popupWindow(objId);
+  } else if (event.target.className === 'postReserveBtn') {
+    const objId = event.target.dataset.index;
+    postReservation(objId);
+    reservationPopupWindow(objId);
   } else if (event.target.id === 'close') {
     const body = document.querySelector('body');
     const detailContainer = document.querySelector('.popup');
@@ -23,4 +33,4 @@ document.addEventListener('click', (event) => {
   }
 });
 
-export default popupWindow;
+export { commentPopupWindow, reservationPopupWindow };
