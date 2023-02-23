@@ -56,7 +56,7 @@ Testing/Validate
 
 # 📖 [JavaScript Capstone] <a name="about-project"></a>
 
-> A **Museum of Art** API-based webapp built during the Microverse online program as part of JavaScript module Capstone project in a team of two person.  The purpose of project was to provide hand on experience on javascript, unit-testing and API. The app is built using the frontend technologies HTML, CSS and JavaScript.
+> A **Museum of Art** is website built during the Microverse online program as part of the JavaScript module Capstone project by a team of two people. The purpose of the project was to provide hand on experience in javascript, unit-testing, and API. The app is built using the frontend technologies HTML, CSS, and JavaScript.
 
 **[JavaScript Capstone]** 
 
